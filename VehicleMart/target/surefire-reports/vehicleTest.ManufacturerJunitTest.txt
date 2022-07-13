@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: vehicleTest.ManufacturerJunitTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.843 s <<< FAILURE! - in vehicleTest.ManufacturerJunitTest
+vehicleTest.ManufacturerJunitTest  Time elapsed: 1.841 s  <<< ERROR!
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'CategoryDAO': Unsatisfied dependency expressed through field 'sessionFactory'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.hibernate.SessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at vehicleTest.ManufacturerJunitTest.executeFirst(ManufacturerJunitTest.java:24)
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.hibernate.SessionFactory' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at vehicleTest.ManufacturerJunitTest.executeFirst(ManufacturerJunitTest.java:24)
+

@@ -1,0 +1,15 @@
+dao\ManufacturerDAO.class
+dao\CategoryDAO.class
+dao\CategoryDAOImpl.class
+controller\MainController.class
+dao\ProductDAOImpl.class
+controller\CategoryController.class
+model\Product.class
+model\Category.class
+model\Manufacturer.class
+dao\UserDAO.class
+controller\productController.class
+model\UserDetail.class
+dao\ManufacturerDAOImpl.class
+dao\UserDAOImpl.class
+dao\ProductDAO.class
